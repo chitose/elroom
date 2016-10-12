@@ -1,0 +1,1 @@
+SET NODE_ENV=development && webpack -d --inline --color --progress

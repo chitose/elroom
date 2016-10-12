@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="bc605eb3-1f63-4770-a7c7-5de7c3efd938" ChangeDateTime="06/07/2016 12:35:02">
+    <Property Name="ElementName" Value="[dbo].[Expense].[Remark]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Expense]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Remarks" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="be5fdbdb-286a-481b-ab17-fa84bb545ce6" ChangeDateTime="07/08/2016 13:08:32">
+    <Property Name="ElementName" Value="[dbo].[AppUser].[Login]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AppUser]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="196408b5-486c-48cd-b804-5915386c584e" ChangeDateTime="07/08/2016 14:50:53">
+    <Property Name="ElementName" Value="[dbo].[AppRole].[IsAdministrator]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AppRole]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsBuiltIn" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="29a18163-b25a-43e4-ba1d-a753c8ed9b6d" ChangeDateTime="07/08/2016 14:51:19">
+    <Property Name="ElementName" Value="[dbo].[AppRole].[IsBuiltIn]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AppRole]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsReadonly" />
+  </Operation>
+</Operations>

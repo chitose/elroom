@@ -1,0 +1,203 @@
+﻿.post-reaction {
+
+    .follow {
+        text-align: right;
+    }
+
+    .follow {
+        .count {
+            border: 1px solid #999999;
+        }
+    }
+}
+
+.post-container {
+    margin-top: 10px !important;
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.12), 0px 1px 4px rgba(0,0,0,0.12);
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    border-bottom-width: 0;
+
+    .content-box {
+        padding: 15px 15px 0 15px;
+        position: relative;
+    }
+
+    .edit-post {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .title {
+        font-size: 1.25em;
+    }
+
+    .content {
+        line-height: 1.25em;
+    }
+
+    .post-poll-box {
+        border-top: 1px solid #e0e0e0;
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+
+    .image {
+        margin-top: 10px;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
+
+    .material-icons.md-18 {
+        font-size: 18px !important;
+    }
+}
+
+.owner-info-container {
+    margin-bottom: 10px;
+
+    .avatar {
+        float: left;
+    }
+
+    .info {
+        padding-left: 50px;
+    }
+}
+
+.date {
+    margin-top: 4px;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
+}
+
+.post-reaction.elroom-table {
+    border-top: 1px solid #e0e0e0;
+    color: #666666;
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px 0;
+
+    .follow {
+        text-align: right;
+
+        &.count {
+            padding: 9px 15px 8px 15px;
+            border-radius: 3px;
+            margin-right: -2px;
+            white-space: nowrap;
+            border: 1px solid #e0e0e0;
+        }
+    }
+
+    .reactions button {
+        padding: 0 !important;
+        height: 20px !important;
+    }
+
+    .btn-dislike {
+        position: absolute !important;
+        right: 10px;
+        bottom: -9px;
+    }
+}
+
+
+.comment-box {    
+    &.focused::before {
+        content: "";
+        display: block;
+        position: fixed;
+        background: rgba(0,0,0,0.3);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1000;
+    }
+
+    .comment-box-inner {
+        padding: 0 15px;
+    }
+
+    &.focused .comment-box-inner {
+        position: relative;
+        z-index: 10001;
+        background: #fff;
+    }
+
+    > div > div {
+        font-size: 13px;
+    }
+}
+
+.comment-image img {
+    height: 100px;
+}
+
+.comment-item {
+    margin-bottom: 10px;
+
+    .comment-owner {
+        margin-right: 5px;
+        float: left;
+    }
+
+    .comment-body {
+    }
+}
+
+.elroom-invite-member {
+    padding: 0 15px;
+
+    > div > div > div > div {
+        font-size: 13px;
+    }
+}
+
+.sticker-preview {
+    max-height: 100px;
+}
+
+.stickers-list {
+    .sticker-preview {
+        float: left;
+        margin: 5px;
+        border: 1px solid transparent;
+
+        &:hover {
+            border: 1px solid #4db6ac;
+        }
+    }
+}
+
+
+.edit-post {
+    text-align: right;
+}
+
+.comment-list {
+    padding: 15px;
+    background-color: #F2F6F7;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+
+    .comment-body {
+        padding-left: 50px;
+    }
+
+    .comment-heading,
+    .comment-image,
+    .comment-date {
+        line-height: 1.25em;
+    }
+
+    .comment-heading {
+        display: inline-block;
+    }
+}

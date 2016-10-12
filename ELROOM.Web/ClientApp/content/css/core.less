@@ -1,0 +1,110 @@
+﻿@import 'font-awesome-4.6.3/css/font-awesome.css';
+@import 'roboto-gh-pages/roboto.css';
+
+@import 'variables.less';
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+body {
+    background-color: #E7EBEC;
+    background-size: cover;
+}
+
+.app-root {
+    text-align: left;
+    /*max-width: @max-width;*/
+    margin: auto;
+}
+
+.elroom-body-box {
+    margin: 0 20px 50px 20px;
+}
+
+.center-box {
+    margin: auto;
+}
+
+.content-container {
+    padding: 10px;
+}
+
+.forbidden-page {
+    text-align: center;
+
+    .material-icons {
+        font-size: 64px !important;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    span {
+        vertical-align: middle;
+        display: inline-block;
+        line-height: 64px;
+    }
+}
+
+.app-bar {
+    /* work-around for diff between MUI server render and client render of AppBar*/
+    display: flex !important;
+}
+
+.vert-sep {
+    min-height: 10px;
+}
+
+.elroom-table {
+    display: table;
+}
+
+.elroom-row {
+    display: table-row;
+}
+
+.elroom-cell {
+    display: table-cell;
+}
+
+.elroom-seperator {
+    margin-top: 20px;
+}
+
+.elroom-clearboth {
+    clear: both;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+.elroom-list-item {
+    > div > div {
+        padding-top: 5px !important;
+        padding-bottom: 10px !important;
+        img {
+            top: 5px !important;
+        }
+        > div{
+            top: 0 !important;
+        }
+    }
+}
+.elroom-card-text{
+    > div{
+        padding: 5px !important;
+    }
+}
+.elroom-post-view > .post-container
+{
+  margin-top: 0 !important;
+}
+.elroom-notification button{
+    width: 45px !important;
+    height: 30px !important;
+    padding-top: 8px !important;
+}

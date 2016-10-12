@@ -1,0 +1,15 @@
+﻿{
+  "label": {
+    "username": "Username",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "avatar": "Avatar",
+    "options": "Option",
+    "allow_push_notification": "Allow push notifications"
+  },
+  "button": {
+  },
+  "page": {
+    "profile": "My profile"
+  }
+}

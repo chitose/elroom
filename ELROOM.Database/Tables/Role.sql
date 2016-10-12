@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[Role]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1, 4),
+	[Name] NVARCHAR(100) NOT NULL,
+	[Remarks] NVARCHAR(MAX) NULL,	
+  [CreationDate] SMALLDATETIME NOT NULL,
+  [ModificationDate] SMALLDATETIME NOT NULL,
+  [RowVersion] TIMESTAMP NOT NULL
+)
+
+GO
+
+CREATE UNIQUE INDEX UK_Role_Name ON [Role](Name)

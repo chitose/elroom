@@ -1,0 +1,37 @@
+﻿{
+    "menu": {
+
+    },
+  "message": {
+    "invalid_comment": "Invalid comment",
+    "null_comment": "Comment must not be null",
+    "delete_post_confirm": "Do you realy want to delete this post?"
+  },
+  "button": {
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "followed": "Followed",
+    "vote": "Vote",
+    "choose_image": "Choose image",
+    "upload_picture": "Upload picture",
+    "pick_sticker": "Pick sticker",
+    "edit_post": "Edit",
+    "delete_post": "Delete",
+    "load_more_comment": "Show more comments..."
+  },
+    "poll_graph": "Poll statistics",
+  "label": {
+    "title": "Title",
+    "content": "Content",
+    "poll": "Poll",
+    "new_post": "New post",
+    "poll_choices": "Poll options",
+    "comment_hint": "Write comment...",
+    "photo_upload": "Choose a photo...",
+    "pick_sticker": "Choose a sticker...",
+    "poll_start": "Start date",
+    "edit_post": "Edit post",
+    "delete_post": "Delete post",
+    "poll_end": "End date"
+  }
+}

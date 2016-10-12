@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{6830209B-6343-404E-A4CF-A2F2C3C37BFA}"
+	ProjectSection(SolutionItems) = preProject
+		SPA.Web\build-vendor.bat = SPA.Web\build-vendor.bat
+		SPA.Web\build.bat = SPA.Web\build.bat
+		SPA.Web\watch.bat = SPA.Web\watch.bat
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ELROOM.Database", "ELROOM.Database\ELROOM.Database.sqlproj", "{B6177061-DC1A-4CD1-9ED7-02E604014605}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ELROOM.Web", "ELROOM.Web\ELROOM.Web.xproj", "{06885241-2BE1-4BAC-8DD3-0CADA93513C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6177061-DC1A-4CD1-9ED7-02E604014605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6177061-DC1A-4CD1-9ED7-02E604014605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6177061-DC1A-4CD1-9ED7-02E604014605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6177061-DC1A-4CD1-9ED7-02E604014605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6177061-DC1A-4CD1-9ED7-02E604014605}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{06885241-2BE1-4BAC-8DD3-0CADA93513C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06885241-2BE1-4BAC-8DD3-0CADA93513C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06885241-2BE1-4BAC-8DD3-0CADA93513C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06885241-2BE1-4BAC-8DD3-0CADA93513C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

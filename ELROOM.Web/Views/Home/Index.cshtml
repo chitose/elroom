@@ -1,0 +1,35 @@
+﻿@addTagHelper "*, ELROOM.Web"
+
+@model ELROOM.Web.Controllers.HomeController.Model
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="~/dist/vendor.css?v=@Model.CacheDate" type="text/css" />
+  <link rel="stylesheet" href="~/dist/site.css?v=@Model.CacheDate" type="text/css" />
+  @*<meta asp-prerender-module="ClientApp/boot-server"
+        asp-prerender-webpack-config="webpack.config.js"
+        asp-prerender-data="new {
+            language = @Model.Language,
+            userProfile = @Model.UserProfile,
+            userAgent = @Model.UserAgent,
+            resources = @Model.I18Resources            
+         }" />*@
+  <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <script>
+        var serverInfos = {};
+        serverInfos.language = '@Model.Language';
+        serverInfos.userProfile = @Json.Serialize(Model.UserProfile);
+        serverInfos.userAgent = '@Model.UserAgent';
+        serverInfos.resources = @Json.Serialize(Model.I18Resources);
+    </script>
+  @*<div id="react-app" asp-prerender-output=""></div>*@  
+  <div id="react-app"></div>
+  <script src="~/dist/vendor.js?v=@Model.CacheDate"></script>
+  <script src="~/dist/main.js?v=@Model.CacheDate"></script>
+</body>
+</html>

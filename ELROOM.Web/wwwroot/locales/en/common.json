@@ -1,0 +1,38 @@
+﻿{
+  "personalMenu": {
+    "profile": "My profile"
+  },
+  "label": {
+    "failed_request_dialog": "Request failed",
+    "view_more": "View more",
+    "following_posts": "Following posts",
+    "host_posts": "Hot posts",
+    "post_with_polls": "Polls",
+    "forbidden_page":  "Forbidden"
+  },
+  "message": {
+    "server_error": "Server Error",
+    "concurrency": "Concurrency Update Error",
+    "network_error": "Unexpected network error.\nPlease reload the application and try again in moment.\nContact support if error persists.",
+    "save_ok": "Modification has been saved successfully.",
+    "save_change_confirm": "You have unsaved changes. Do you want to continue?",
+    "invitation_not_found": "No invitation.",
+    "private_group_access_denied": "The group is private. You must be invited to access.",
+    "forbidden": "Forbidden"
+
+  },
+  "button": {
+    "OK": "OK",
+    "submit": "Submit",
+    "save_change": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "yes": "Yes",
+    "no": "No",
+    "show_all": "Show all",
+    "close": "Close",
+    "go_back": "Go back",
+    "show_more": "Show more posts..."
+  },
+  "app_title": "ELROOM"
+}

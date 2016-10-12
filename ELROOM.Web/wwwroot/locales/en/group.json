@@ -1,0 +1,29 @@
+﻿{
+  "follower_with_count": "{{count}} follower",
+  "follower_with_count_plural": "{{count}} followers",
+  "menu": {
+    "follow": "Join",
+    "unfollow": "Leave",
+    "set_favorite": "Pin",
+    "remove_favorite": "Unpin",
+    "edit": "Edit",
+    "delete_group": "Delete"
+  },
+  "message": {
+    "duplicate_name": "The name is already used by other group. Please choose another name.",
+    "delete_group_confirm": "Do you realy want to delete this group?"
+  },
+  "button": {
+    "new_group": "Create group",
+    "new_post": "New post"
+  },
+  "label": {
+    "name": "Name",
+    "description": "Description",
+    "private": "Private",
+    "new_group": "Create new group",
+    "owned_group": "Owned groups",
+    "group_deletion": "Delete group",
+    "public":  "Public"
+  }
+}

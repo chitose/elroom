@@ -1,0 +1,23 @@
+﻿{
+  "required": "This field is mandatory.",
+  "is_int": "{{value}} is not integer.",
+  "file_too_big": "Only accept file size under {{size}}.",
+  "not_allowed_extension": "Only accept files of type {{ext}}",
+  "is_same_as": "The value does not match with {{other}}.",
+  "password": {
+    "length": "Require minimum {{length}} characters.",
+    "require_digit": "Must contains digit.",
+    "require_lowercase": "Must contains lowercase character.",
+    "require_uppercase": "Must contains uppercase character.",
+    "require_non_alphanumeric": "Must contains special character."
+  },
+  "is_date_after": "The date must be after {{date}}.",
+  "is_date_before": "The date must be before {{date}}.",
+  "is_length_min_max": "Must contains at least {{min}} and at max {{max}} characters.",
+  "is_length_min": "Must contains at leat {{min}} characters.",
+  "is_length_max": "Must contains maximum {{max}} characters.",
+  "is_decimal": "{{value}} is not decimal.",
+  "is_in": "Only accept one of following values: {{accepted}}.",
+  "is_url": "{{value}} is not valid URL.",
+  "pattern": "{{value}} does not match {{pattern}}."
+}

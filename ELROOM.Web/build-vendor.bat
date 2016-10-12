@@ -1,0 +1,1 @@
+SET NODE_ENV=development && webpack --config webpack.config.vendor.js -d --color --inline --progress
